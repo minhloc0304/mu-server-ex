@@ -1,0 +1,1643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{202d7b3b-b147-4c4e-87d4-cbf964ac11a2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dbaef6c7-5459-442e-a804-2d8c2ee78154}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="HaRiBO">
+      <UniqueIdentifier>{2574086d-b29b-4d88-9b59-8bf88a9d433f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\MasterSkillSystem">
+      <UniqueIdentifier>{eccdab6a-e19e-4be9-818e-6f09b9499fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\DBSave">
+      <UniqueIdentifier>{788eee68-16e2-43c7-a566-5d9b1a339f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\DBSockMng">
+      <UniqueIdentifier>{455ef161-0521-4760-9139-5d49f9567c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Items">
+      <UniqueIdentifier>{57cf4758-b27d-46db-ae80-0cb7bc523ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Maps">
+      <UniqueIdentifier>{83630200-f37e-466b-abb9-52c24c5828ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Shops">
+      <UniqueIdentifier>{4ced2d2d-bd2f-4e95-acef-0bced51d615c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Skills">
+      <UniqueIdentifier>{3ea9add5-9be5-4e4b-a8b1-e006ce549379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Magics">
+      <UniqueIdentifier>{f4ea3629-24e9-47db-8023-95473541b531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc">
+      <UniqueIdentifier>{2c71b21c-c46f-4540-b2ae-cc6e45b99856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\WsGameServer">
+      <UniqueIdentifier>{d64e04c1-c8cf-4c79-a0f8-bcd53b22c822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\WsJoinServerCli">
+      <UniqueIdentifier>{2acd4e1b-7b13-4778-b077-c39fa7ada3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\WzQueue">
+      <UniqueIdentifier>{2652d0e5-2562-4be2-b6c8-bccbb7fc6d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\WzUdp">
+      <UniqueIdentifier>{27bc9111-c7ee-4eaa-bb3b-9b8015225d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Headers">
+      <UniqueIdentifier>{859b9432-4b47-4546-a28c-b2c3c0abc498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Protocols">
+      <UniqueIdentifier>{8f2dcd75-a2f5-4abb-8bf7-7e6258f10d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\ItemSocketSystem">
+      <UniqueIdentifier>{b3aee091-c2ef-4676-a43c-f2b82b70c1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Guild">
+      <UniqueIdentifier>{4f055777-d6f7-4825-8f8f-e7d089c3c52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\ChaosBox">
+      <UniqueIdentifier>{5df04461-f9c4-4c9d-b753-7994f0f4425e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Mercenary">
+      <UniqueIdentifier>{c34bd0af-9105-4fad-8d54-fe5f07f89b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\User">
+      <UniqueIdentifier>{ec47bf09-0266-4956-9c8f-efc3c0251439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\DarkSpirit">
+      <UniqueIdentifier>{9e11b57b-2335-4ebc-bbf2-416c42bb2593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\NpcTalk">
+      <UniqueIdentifier>{a6ac1198-4e7b-4b17-81e3-1dfa1412fd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\Randomizer">
+      <UniqueIdentifier>{e3a64fcc-43a0-4fef-a869-5dbcb66f2df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\GameMain">
+      <UniqueIdentifier>{dc8e537a-a101-4268-8336-2a21392d54fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters">
+      <UniqueIdentifier>{42249b56-979e-4e5c-aba1-ce629a9efb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players">
+      <UniqueIdentifier>{4e8d68bc-b449-4464-aa8f-f29a9e7c6e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players\ObjCalCharacter">
+      <UniqueIdentifier>{65dd9fb5-d265-49c8-8e5c-ca695b06e216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players\CLoginCount">
+      <UniqueIdentifier>{505eb762-5ce1-4e78-9b3a-50e6794086d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players\ClosePlayer">
+      <UniqueIdentifier>{7ff4fe93-d636-487f-9db3-29ebfd3f7629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players\ConMember">
+      <UniqueIdentifier>{d0466fe2-aea7-4e1d-a5b7-1d6194c7d2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\WORKING IN...">
+      <UniqueIdentifier>{0f10e40e-077a-4b0d-b2b5-aaa294807ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\CWhatsUpDummyServer">
+      <UniqueIdentifier>{bdff276b-7de6-4ce6-ac81-2ac59a08707a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Attack">
+      <UniqueIdentifier>{81e2eb31-acf1-40c7-8a27-8b981b96d20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\LargeRand">
+      <UniqueIdentifier>{31463ec1-407a-46d8-94bf-8c202ad4b0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\gObjMonsters">
+      <UniqueIdentifier>{b9010409-ecdb-482d-af37-15b49939b859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\MonsterAttr">
+      <UniqueIdentifier>{cd6bf050-79c9-4ebb-9691-9e0781a0e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\MonsterHerd">
+      <UniqueIdentifier>{1492da2c-a48e-4056-b717-583dd920bd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Attack\ComboAttack">
+      <UniqueIdentifier>{8c3d5c75-32c1-432a-afd8-415ff3189f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Attack\ObjAttack">
+      <UniqueIdentifier>{347ac9e9-f9d8-4a79-9d67-c0a698fd17c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Attack\ObjBaseAttack">
+      <UniqueIdentifier>{1303eac5-8050-4f15-89e0-aa2444520fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\IP Manage">
+      <UniqueIdentifier>{7b52ae9e-bbb0-455e-9331-46d6e7a3cd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\IP Manage\AcceptIp">
+      <UniqueIdentifier>{e0b9da4d-8a56-4c27-b720-6f6e8412916d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\IP Manage\IpCache">
+      <UniqueIdentifier>{452bd74b-867a-46c9-8037-8d8a8c4a1aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Packets">
+      <UniqueIdentifier>{9947fd85-ad8a-4cec-a95a-9054ddf30e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\MonsterSetBase">
+      <UniqueIdentifier>{d0fd6422-229a-406f-a863-96f280b5c23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\MonsterItemMng">
+      <UniqueIdentifier>{61d4591b-f193-49d4-b4e4-e6909eaeb346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\SendHackLog">
+      <UniqueIdentifier>{a1b63b3e-38d9-4c6d-b77c-b08f743dc192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\PacketCheckSum">
+      <UniqueIdentifier>{4ce91772-d505-4971-af00-caaa48d52c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\NSerialCheck">
+      <UniqueIdentifier>{72d1aa2c-0fa0-472e-a719-cb8cd7bd85a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\MultiCheckSum">
+      <UniqueIdentifier>{328d3d6f-443f-45e8-a001-ac5172fb975c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Etc\MultiAttackHackCheck">
+      <UniqueIdentifier>{36642f1e-3ae8-4b66-8799-65ed6391ec5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Skills\ObjUseSkill">
+      <UniqueIdentifier>{ec9cc511-2ca6-48b2-ad15-a2cddf8492d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Skills\SkillHitBox">
+      <UniqueIdentifier>{25271881-8078-486b-a0c3-56b154c403ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Skills\SkillDelay">
+      <UniqueIdentifier>{6c2dcdb3-1202-4e7d-ba05-de67009105c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Monsters\TMonsters [ Didnt work on it ]">
+      <UniqueIdentifier>{aad20398-4b83-4b3e-a4b6-8847f5aee9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\WORKING IN...\Item">
+      <UniqueIdentifier>{fd5dac3f-ca61-404c-acba-b09768c4a53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\WORKING IN...\Guild">
+      <UniqueIdentifier>{3f7333c1-c02f-41f8-b9f1-103f70549712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\RC Functions">
+      <UniqueIdentifier>{31be9793-4561-4217-ae27-a3487b55bc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\GenSystem">
+      <UniqueIdentifier>{510ecb27-936c-4fad-8dab-efc6edd493e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Skills\SkillAdditionInfo">
+      <UniqueIdentifier>{29d8c457-d14f-4d05-8dd4-6eeef477bdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Players\StatMng">
+      <UniqueIdentifier>{943b3b07-0106-4f5e-b8cf-59d30eda9800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Items\zzzItem">
+      <UniqueIdentifier>{970ca840-48b6-41f2-bcbb-71f1c1d61e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events">
+      <UniqueIdentifier>{3adcb7a6-ac20-4c37-954c-869d4fb92656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\EventItemBags">
+      <UniqueIdentifier>{78476744-d5c5-4298-9668-3b48df1b79b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Magics\MagicDamage">
+      <UniqueIdentifier>{3a2666cc-9e95-48c2-bf32-e9801d45a9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Magics\MagicInfo">
+      <UniqueIdentifier>{3f8769ab-a4e1-411e-b342-28096985814e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\Event">
+      <UniqueIdentifier>{f8c1ee69-d72b-425b-a7e4-2cad62418dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Protocols\DSProtocol">
+      <UniqueIdentifier>{630bb4df-e2c2-4d75-95a6-9f02e2dbcc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Protocols\EDSProtocol">
+      <UniqueIdentifier>{cec282f0-8271-4c8c-a336-c9adcec4519e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Protocols\Protocol">
+      <UniqueIdentifier>{4d18b186-7ce8-4fd8-b9fd-b775167a88fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\PersonalShop">
+      <UniqueIdentifier>{a974fbe3-4f45-45eb-8fa0-6a7980ef04b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\DuelSystem">
+      <UniqueIdentifier>{b843bf55-5cdd-4d27-b209-6e403c70239b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\ChaosCastle">
+      <UniqueIdentifier>{967e4732-379c-4804-8a9c-664d4531eec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Party">
+      <UniqueIdentifier>{64c02c7f-7c01-44d3-b57e-cee82a172336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Gate">
+      <UniqueIdentifier>{c79ab6ea-83d7-432e-b64c-6f013678aae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\GoldenEvent">
+      <UniqueIdentifier>{8b8ee66d-cec0-4138-8324-70e3bf1f96b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\SantaEvent">
+      <UniqueIdentifier>{8bc7192d-30cd-4a66-9875-b2120f3986e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\DoubleGoer">
+      <UniqueIdentifier>{b3a3e1a3-a376-4e00-b024-a967cb21d180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\ImperialFort">
+      <UniqueIdentifier>{fdaac22e-ada9-4728-90b4-b1d43810355d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Quests">
+      <UniqueIdentifier>{82b0cc33-3747-4762-9e73-ad17faa860a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\Kanturu">
+      <UniqueIdentifier>{53f9741e-21d9-4c3b-9cfe-bcc6acd67384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\IllusionTemple">
+      <UniqueIdentifier>{8f771987-7f5e-44e5-81b1-ae03bbcd6be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\Crywolf">
+      <UniqueIdentifier>{e9a2a466-6268-45d0-8580-ad7235c6e64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\BloodCastle">
+      <UniqueIdentifier>{55c8e074-5048-45cc-bcd9-2f2c07f5c6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\DevilSquare">
+      <UniqueIdentifier>{702c2a26-1fbd-4585-8d4d-5639d9b8d608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\RaklionEvent">
+      <UniqueIdentifier>{e9fb0417-a071-4191-a299-402b4009882d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\Summer">
+      <UniqueIdentifier>{f44676ad-9da2-4ed5-a54a-0c30ef2e71c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\SkyEvent">
+      <UniqueIdentifier>{d0dcb48d-012b-49e8-81be-6cf62dcb77b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\EventManagement">
+      <UniqueIdentifier>{2ef6329d-8917-4b07-910d-a758a3484ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\UnderworldEvent">
+      <UniqueIdentifier>{26c2309c-f0dd-4e5a-9571-94c9438af2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\HappyHour">
+      <UniqueIdentifier>{d5e528f1-807e-42a4-9832-4aa6b996466f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\CherryBlossom">
+      <UniqueIdentifier>{b2208da6-6339-42a6-b2e9-736bd9a4e400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\RedDragon">
+      <UniqueIdentifier>{df40748d-6a07-459f-ad8d-4077c2a9df6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\RingAttackEvent">
+      <UniqueIdentifier>{16e494e7-84f7-4772-ad8f-c81ac99272ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\SwampOfCalmness">
+      <UniqueIdentifier>{f56424aa-559c-47ac-86a0-35725519f9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\BattleSoccer">
+      <UniqueIdentifier>{48302047-e9e6-4180-b77f-3be56d72b65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\CastleDeepEvent">
+      <UniqueIdentifier>{1e53977e-9f4c-4b5b-8ff6-4912722ff0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\HappyPouch">
+      <UniqueIdentifier>{5ca58628-6836-48e6-8ea0-85708b2f99b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\BlueEvent">
+      <UniqueIdentifier>{a67a8ec3-0dad-42b5-8a36-a3ffe45daf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\MossMerchant">
+      <UniqueIdentifier>{8255b669-21e5-4218-ae2f-fd99883c4388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\Halloween">
+      <UniqueIdentifier>{04a518c1-3cf6-4c8d-a13f-1ad7cafdd4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\CastleSiege">
+      <UniqueIdentifier>{658e3507-c41b-4fb0-a501-f693ccef4915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\PKSystem">
+      <UniqueIdentifier>{5d1cc469-3835-4468-9361-2b1a00ca0f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\ChaosCard">
+      <UniqueIdentifier>{b9703562-0998-4eba-8948-e79fccdcbac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\SpecialItems">
+      <UniqueIdentifier>{eda20bcf-0198-478e-bd51-7a1fecdc2d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\MarrySystem">
+      <UniqueIdentifier>{352539fd-62e7-4096-b5a8-78a46d242283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\LuckyCoin">
+      <UniqueIdentifier>{1fec66d8-0865-489c-b8b3-8f28946d40c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\News">
+      <UniqueIdentifier>{780d39af-0fb7-4f6c-8d18-edc3226136db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Firewall">
+      <UniqueIdentifier>{b0a32d4d-f70e-4af6-a2b0-b053af706284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Item380System">
+      <UniqueIdentifier>{ab7b7153-da72-4615-b2fa-b8ac4542930b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Pets">
+      <UniqueIdentifier>{66d9fe34-d675-47a6-87d8-8c9c1909e285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\ItemDropManager">
+      <UniqueIdentifier>{c8863f81-7b14-4fd7-afbf-e81f6c6300e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Events\GoldenArcher">
+      <UniqueIdentifier>{7cd95347-1828-4ae9-b060-ff9598632832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\Weapon">
+      <UniqueIdentifier>{494ce1ea-87bd-4a0e-bb8e-2c003d55fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\JewelMixSystem">
+      <UniqueIdentifier>{919dc402-3af4-4ee3-b1e0-ff4a2a7500a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS">
+      <UniqueIdentifier>{29a76261-6d66-4070-8667-3044fe22d821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\SimpleModulus">
+      <UniqueIdentifier>{c869ae59-d94d-4ac6-bf15-ba213abe34a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\StdAfx">
+      <UniqueIdentifier>{e395ca43-d4ef-4a35-8c80-3e3c09a3b087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Headers">
+      <UniqueIdentifier>{6d7fed5e-d85c-42cb-88ad-948fc0736be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Protection">
+      <UniqueIdentifier>{1d447202-3d3f-4e3a-9513-a79d0947c0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Main">
+      <UniqueIdentifier>{3116e5d1-76c3-4d08-99d6-505db4a99426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\LogProc">
+      <UniqueIdentifier>{f33e8862-d312-49fe-ba83-cf35f820fceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Resource">
+      <UniqueIdentifier>{34622bb4-4976-49b3-b2cb-b2c2a5caf29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Network">
+      <UniqueIdentifier>{ebcffbca-0708-45c1-a445-b3b3591a6287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Protocol">
+      <UniqueIdentifier>{114fa01b-17de-487d-80c9-1f110ba0b153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Protocol\JoinServer">
+      <UniqueIdentifier>{1a7eb4a7-1a0e-4b4f-b208-126e911ae5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Packets">
+      <UniqueIdentifier>{11fa73b2-43c2-4fdd-a50c-9709b969e748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Structures">
+      <UniqueIdentifier>{24daadbd-ff32-4434-8739-bd1e65f9c2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Configs">
+      <UniqueIdentifier>{119671b3-4ff1-4aae-98f5-7270ff7d164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Protocol\SendProto">
+      <UniqueIdentifier>{37c11700-31f7-4139-b18b-426d324715fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Protocol\RecvProto">
+      <UniqueIdentifier>{28411c8a-149d-4b23-86b0-9e74b977cdab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\ReadFileManager">
+      <UniqueIdentifier>{d269da7c-ac04-4d5f-b81d-94a577b4cadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\GMManager">
+      <UniqueIdentifier>{8fe5cafe-cba0-4008-84e8-51bef63b0a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\ChatHandler">
+      <UniqueIdentifier>{22830b2c-f900-4882-aed2-eb44876587ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Notice">
+      <UniqueIdentifier>{2d6071c8-9b96-43f0-beb5-9822cb01b39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\MiniDumper">
+      <UniqueIdentifier>{1889518e-d8ba-469a-9e5e-82171753c977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Scripting">
+      <UniqueIdentifier>{3702b1a4-04b2-4e1f-b6ac-4dc2b70b8eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Players">
+      <UniqueIdentifier>{c03493a9-7703-4d9e-ae5a-bce36211165c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\Players\CharacterInfo">
+      <UniqueIdentifier>{6c50b533-9a4e-457c-9659-e44c290daf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HaRiBO\MuMsg">
+      <UniqueIdentifier>{6b8e5c9c-fb19-4317-a64f-4d53dc5765f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZodeaGS\MoveSystem">
+      <UniqueIdentifier>{1718a26e-fd01-4582-a406-040e19e8f2e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CallStackTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CashItemPeriodSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CashLotterySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CashShop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JewelOfHarmonySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KalimaGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeStone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TDurMagicKeyChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TRandomPoolMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TServerAlertManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhisperCash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wsShopServerCli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WTEventItemList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WzMultiCastSock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterSkillSystem.cpp">
+      <Filter>HaRiBO\MasterSkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DbSave.cpp">
+      <Filter>HaRiBO\DBSave</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSockMng.cpp">
+      <Filter>HaRiBO\DBSockMng</Filter>
+    </ClCompile>
+    <ClCompile Include="MapItem.cpp">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="MapClass.cpp">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="MapServerManager.cpp">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>HaRiBO\Shops</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjCalCharacter.cpp">
+      <Filter>HaRiBO\Players\ObjCalCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="WzUdp.cpp">
+      <Filter>HaRiBO\Etc\WzUdp</Filter>
+    </ClCompile>
+    <ClCompile Include="WzQueue.cpp">
+      <Filter>HaRiBO\Etc\WzQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="wsJoinServerCli.cpp">
+      <Filter>HaRiBO\Etc\WsJoinServerCli</Filter>
+    </ClCompile>
+    <ClCompile Include="wsGameServer.cpp">
+      <Filter>HaRiBO\Etc\WsGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>ZodeaGS\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSocketSystem.cpp">
+      <Filter>HaRiBO\ItemSocketSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildClass.cpp">
+      <Filter>HaRiBO\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosBox.cpp">
+      <Filter>HaRiBO\ChaosBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Mercenary.cpp">
+      <Filter>HaRiBO\Mercenary</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>HaRiBO\User</Filter>
+    </ClCompile>
+    <ClCompile Include="GMManager.cpp">
+      <Filter>ZodeaGS\GMManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SantaEvent.cpp">
+      <Filter>HaRiBO\Events\SantaEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="IllusionTempleProc.cpp">
+      <Filter>HaRiBO\Events\IllusionTemple</Filter>
+    </ClCompile>
+    <ClCompile Include="IllusionTemple.cpp">
+      <Filter>HaRiBO\Events\IllusionTemple</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkSpirit.cpp">
+      <Filter>HaRiBO\DarkSpirit</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcTalk.cpp">
+      <Filter>HaRiBO\NpcTalk</Filter>
+    </ClCompile>
+    <ClCompile Include="Randomizer.cpp">
+      <Filter>HaRiBO\Etc\Randomizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>HaRiBO\Events\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>HaRiBO\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginCount.cpp">
+      <Filter>HaRiBO\Players\CLoginCount</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosePlayer.cpp">
+      <Filter>HaRiBO\Players\ClosePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConMember.cpp">
+      <Filter>HaRiBO\Players\ConMember</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptIp.cpp">
+      <Filter>HaRiBO\IP Manage\AcceptIp</Filter>
+    </ClCompile>
+    <ClCompile Include="IpCache.cpp">
+      <Filter>HaRiBO\IP Manage\IpCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Kanturu.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuBattleOfMaya.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuBattleOfNightmare.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuBattleStanby.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuBattleUserMng.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuEntranceNPC.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuMaya.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuMonsterMng.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuNightmare.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuStateInfo.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuTowerOfRefinement.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="KanturuUtil.cpp">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClCompile>
+    <ClCompile Include="Crywolf.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfAltar.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfDarkElf.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfMonster.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfStateTimeInfo.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfStatue.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfSync.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfTanker.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CrywolfUtil.cpp">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhatsUpDummyServer.cpp">
+      <Filter>HaRiBO\Etc\CWhatsUpDummyServer</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeRand.cpp">
+      <Filter>HaRiBO\Etc\LargeRand</Filter>
+    </ClCompile>
+    <ClCompile Include="gObjMonster.cpp">
+      <Filter>HaRiBO\Monsters\gObjMonsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttr.cpp">
+      <Filter>HaRiBO\Monsters\MonsterAttr</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterHerd.cpp">
+      <Filter>HaRiBO\Monsters\MonsterHerd</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboAttack.cpp">
+      <Filter>HaRiBO\Attack\ComboAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBaseAttack.cpp">
+      <Filter>HaRiBO\Attack\ObjBaseAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttack.cpp">
+      <Filter>HaRiBO\Attack\ObjAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Packets.cpp">
+      <Filter>HaRiBO\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSetBase.cpp">
+      <Filter>HaRiBO\Monsters\MonsterSetBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterItemMng.cpp">
+      <Filter>HaRiBO\Monsters\MonsterItemMng</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiAttackHackCheck.cpp">
+      <Filter>HaRiBO\Etc\MultiAttackHackCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCheckSum.cpp">
+      <Filter>HaRiBO\Etc\MultiCheckSum</Filter>
+    </ClCompile>
+    <ClCompile Include="NSerialCheck.cpp">
+      <Filter>HaRiBO\Etc\NSerialCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCheckSum.cpp">
+      <Filter>HaRiBO\Etc\PacketCheckSum</Filter>
+    </ClCompile>
+    <ClCompile Include="SendHackLog.cpp">
+      <Filter>HaRiBO\Etc\SendHackLog</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjUseSkill.cpp">
+      <Filter>HaRiBO\Skills\ObjUseSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDelay.cpp">
+      <Filter>HaRiBO\Skills\SkillDelay</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillHitBox.cpp">
+      <Filter>HaRiBO\Skills\SkillHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIMovePath.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIRule.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIRuleInfo.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIUnit.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIUtil.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterSkillElement.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterSkillElementInfo.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterSkillManager.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterSkillUnit.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIElement.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAI.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIAgro.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIAutomata.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIGroup.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="TMonsterAIGroupMember.cpp">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAddOption.cpp">
+      <Filter>HaRiBO\WORKING IN...\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SetItemMacro.cpp">
+      <Filter>HaRiBO\WORKING IN...\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="TUnion.cpp">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="TUnionInfo.cpp">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportGuild.cpp">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestInfo.cpp">
+      <Filter>HaRiBO\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>HaRiBO\RC Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveSystem.cpp">
+      <Filter>ZodeaGS\MoveSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>HaRiBO\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="GenSystem.cpp">
+      <Filter>HaRiBO\GenSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillAdditionInfo.cpp">
+      <Filter>HaRiBO\Skills\SkillAdditionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="StatMng.cpp">
+      <Filter>HaRiBO\Players\StatMng</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>ZodeaGS\Protection</Filter>
+    </ClCompile>
+    <ClCompile Include="zzzpath.cpp">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFileManager.cpp">
+      <Filter>ZodeaGS\ReadFileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zzzitem.cpp">
+      <Filter>HaRiBO\Items\zzzItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBag.cpp">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBagEx.cpp">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicDamage.cpp">
+      <Filter>HaRiBO\Magics\MagicDamage</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicInf.cpp">
+      <Filter>HaRiBO\Magics\MagicInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="DSProtocol.cpp">
+      <Filter>HaRiBO\Protocols\DSProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="EDSProtocol.cpp">
+      <Filter>HaRiBO\Protocols\EDSProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.cpp">
+      <Filter>HaRiBO\Protocols\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalShop.cpp">
+      <Filter>HaRiBO\PersonalShop</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelSystem.cpp">
+      <Filter>HaRiBO\DuelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SQuest.cpp">
+      <Filter>HaRiBO\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosCastle.cpp">
+      <Filter>HaRiBO\Events\ChaosCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="Party.cpp">
+      <Filter>HaRiBO\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenEvent.cpp">
+      <Filter>HaRiBO\Events\GoldenEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="ImperialFort.cpp">
+      <Filter>HaRiBO\Events\ImperialFort</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleGoer.cpp">
+      <Filter>HaRiBO\Events\DoubleGoer</Filter>
+    </ClCompile>
+    <ClCompile Include="DevilSquare.cpp">
+      <Filter>HaRiBO\Events\DevilSquare</Filter>
+    </ClCompile>
+    <ClCompile Include="DevilSquareGround.cpp">
+      <Filter>HaRiBO\Events\DevilSquare</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodCastle.cpp">
+      <Filter>HaRiBO\Events\BloodCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="Raklion.cpp">
+      <Filter>HaRiBO\Events\RaklionEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Summer.cpp">
+      <Filter>HaRiBO\Events\Summer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyEvent.cpp">
+      <Filter>HaRiBO\Events\SkyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManagement.cpp">
+      <Filter>HaRiBO\Events\EventManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderWorld.cpp">
+      <Filter>HaRiBO\Events\UnderworldEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyHour.cpp">
+      <Filter>HaRiBO\Events\HappyHour</Filter>
+    </ClCompile>
+    <ClCompile Include="RedDragon.cpp">
+      <Filter>HaRiBO\Events\RedDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="RingAttackEvent.cpp">
+      <Filter>HaRiBO\Events\RingAttackEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="SwampOfCalmness.cpp">
+      <Filter>HaRiBO\Events\SwampOfCalmness</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleGround.cpp">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSoccer.cpp">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSoccerManager.cpp">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyPouch.cpp">
+      <Filter>HaRiBO\Events\HappyPouch</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueEvent.cpp">
+      <Filter>HaRiBO\Events\BlueEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="MossMerchant.cpp">
+      <Filter>HaRiBO\Events\MossMerchant</Filter>
+    </ClCompile>
+    <ClCompile Include="CherryBlossom.cpp">
+      <Filter>HaRiBO\Events\CherryBlossom</Filter>
+    </ClCompile>
+    <ClCompile Include="Halloween.cpp">
+      <Filter>HaRiBO\Events\Halloween</Filter>
+    </ClCompile>
+    <ClCompile Include="InitConfigs.cpp">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleSiege.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleCrown.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardianStatue.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleCrownSwitch.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleSiegeSync.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="Guardian.cpp">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="PKSystem.cpp">
+      <Filter>HaRiBO\PKSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosCard.cpp">
+      <Filter>HaRiBO\Events\ChaosCard</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialItems.cpp">
+      <Filter>HaRiBO\SpecialItems</Filter>
+    </ClCompile>
+    <ClCompile Include="LuckyCoin.cpp">
+      <Filter>HaRiBO\Events\LuckyCoin</Filter>
+    </ClCompile>
+    <ClCompile Include="News.cpp">
+      <Filter>HaRiBO\News</Filter>
+    </ClCompile>
+    <ClCompile Include="Firewall.cpp">
+      <Filter>HaRiBO\Firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="Item380System.cpp">
+      <Filter>HaRiBO\Item380System</Filter>
+    </ClCompile>
+    <ClCompile Include="MarrySystem.cpp">
+      <Filter>HaRiBO\MarrySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Pets.cpp">
+      <Filter>HaRiBO\Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDropManager.cpp">
+      <Filter>HaRiBO\ItemDropManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenArcher.cpp">
+      <Filter>HaRiBO\Events\GoldenArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleDeepEvent.cpp">
+      <Filter>HaRiBO\Events\CastleDeepEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>HaRiBO\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="JewelMixSystem.cpp">
+      <Filter>HaRiBO\JewelMixSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleModulus.cpp">
+      <Filter>ZodeaGS\SimpleModulus</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ZodeaGS\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LogProc.cpp">
+      <Filter>ZodeaGS\LogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="JSProtocol.cpp">
+      <Filter>ZodeaGS\Protocol\JoinServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>ZodeaGS\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Configs.cpp">
+      <Filter>ZodeaGS\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatHandler.cpp">
+      <Filter>ZodeaGS\ChatHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Notice.cpp">
+      <Filter>ZodeaGS\Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDumper.cpp">
+      <Filter>ZodeaGS\MiniDumper</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWinsockBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetItemOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WzMemScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WZScriptEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SendProto.cpp">
+      <Filter>ZodeaGS\Protocol\SendProto</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting.cpp">
+      <Filter>ZodeaGS\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>ZodeaGS\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterInfo.cpp">
+      <Filter>ZodeaGS\Players\CharacterInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="MuMsg.cpp">
+      <Filter>HaRiBO\MuMsg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CallStackTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CashItemPeriodSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CashLotterySystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CashShop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JewelOfHarmonySystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KalimaGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeStone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TDurMagicKeyChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRandomPoolMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TServerAlertManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhisperCash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wsShopServerCli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTEventItemList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WzMultiCastSock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterSkillSystem.h">
+      <Filter>HaRiBO\MasterSkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DbSave.h">
+      <Filter>HaRiBO\DBSave</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSockMng.h">
+      <Filter>HaRiBO\DBSockMng</Filter>
+    </ClInclude>
+    <ClInclude Include="MapClass.h">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MapItem.h">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MapServerManager.h">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjCalCharacter.h">
+      <Filter>HaRiBO\Players\ObjCalCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="wsGameServer.h">
+      <Filter>HaRiBO\Etc\WsGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="wsJoinServerCli.h">
+      <Filter>HaRiBO\Etc\WsJoinServerCli</Filter>
+    </ClInclude>
+    <ClInclude Include="WzQueue.h">
+      <Filter>HaRiBO\Etc\WzQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="WzUdp.h">
+      <Filter>HaRiBO\Etc\WzUdp</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>HaRiBO\Shops</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>ZodeaGS\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="PCSProtocol.h">
+      <Filter>HaRiBO\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSocketSystem.h">
+      <Filter>HaRiBO\ItemSocketSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildClass.h">
+      <Filter>HaRiBO\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosBox.h">
+      <Filter>HaRiBO\ChaosBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Mercenary.h">
+      <Filter>HaRiBO\Mercenary</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>HaRiBO\User</Filter>
+    </ClInclude>
+    <ClInclude Include="GMManager.h">
+      <Filter>ZodeaGS\GMManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SantaEvent.h">
+      <Filter>HaRiBO\Events\SantaEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="IllusionTemple.h">
+      <Filter>HaRiBO\Events\IllusionTemple</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>HaRiBO\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkSpirit.h">
+      <Filter>HaRiBO\DarkSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcTalk.h">
+      <Filter>HaRiBO\NpcTalk</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>HaRiBO\Etc\Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>HaRiBO\Events\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>HaRiBO\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginCount.h">
+      <Filter>HaRiBO\Players\CLoginCount</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosePlayer.h">
+      <Filter>HaRiBO\Players\ClosePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConMember.h">
+      <Filter>HaRiBO\Players\ConMember</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptIp.h">
+      <Filter>HaRiBO\IP Manage\AcceptIp</Filter>
+    </ClInclude>
+    <ClInclude Include="IpCache.h">
+      <Filter>HaRiBO\IP Manage\IpCache</Filter>
+    </ClInclude>
+    <ClInclude Include="Kanturu.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuBattleOfMaya.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuBattleOfNightmare.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuBattleStanby.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuBattleUserMng.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuEntranceNPC.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuMaya.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuMonsterMng.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuNightmare.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuStateInfo.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuTowerOfRefinement.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="KanturuUtil.h">
+      <Filter>HaRiBO\Events\Kanturu</Filter>
+    </ClInclude>
+    <ClInclude Include="Crywolf.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfAltar.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfDarkElf.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfMonster.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfObjInfo.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfStateTimeInfo.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfStatue.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfSync.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfTanker.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CrywolfUtil.h">
+      <Filter>HaRiBO\Events\Crywolf</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeRand.h">
+      <Filter>HaRiBO\Etc\LargeRand</Filter>
+    </ClInclude>
+    <ClInclude Include="gObjMonster.h">
+      <Filter>HaRiBO\Monsters\gObjMonsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttr.h">
+      <Filter>HaRiBO\Monsters\MonsterAttr</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterHerd.h">
+      <Filter>HaRiBO\Monsters\MonsterHerd</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboAttack.h">
+      <Filter>HaRiBO\Attack\ComboAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBaseAttack.h">
+      <Filter>HaRiBO\Attack\ObjBaseAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttack.h">
+      <Filter>HaRiBO\Attack\ObjAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>HaRiBO\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSetBase.h">
+      <Filter>HaRiBO\Monsters\MonsterSetBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterItemMng.h">
+      <Filter>HaRiBO\Monsters\MonsterItemMng</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiAttackHackCheck.h">
+      <Filter>HaRiBO\Etc\MultiAttackHackCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCheckSum.h">
+      <Filter>HaRiBO\Etc\MultiCheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="NSerialCheck.h">
+      <Filter>HaRiBO\Etc\NSerialCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCheckSum.h">
+      <Filter>HaRiBO\Etc\PacketCheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="SendHackLog.h">
+      <Filter>HaRiBO\Etc\SendHackLog</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjUseSkill.h">
+      <Filter>HaRiBO\Skills\ObjUseSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDelay.h">
+      <Filter>HaRiBO\Skills\SkillDelay</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillHitBox.h">
+      <Filter>HaRiBO\Skills\SkillHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIMovePath.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIRule.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIRuleInfo.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIUnit.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIUtil.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterSkillElement.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterSkillElementInfo.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterSkillManager.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterSkillUnit.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIElement.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAI.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIAgro.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIAutomata.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIGroup.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonsterAIGroupMember.h">
+      <Filter>HaRiBO\Monsters\TMonsters [ Didnt work on it ]</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAddOption.h">
+      <Filter>HaRiBO\WORKING IN...\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SetItemMacro.h">
+      <Filter>HaRiBO\WORKING IN...\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TUnion.h">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="TUnionInfo.h">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportGuild.h">
+      <Filter>HaRiBO\WORKING IN...\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestInfo.h">
+      <Filter>HaRiBO\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>HaRiBO\RC Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSystem.h">
+      <Filter>ZodeaGS\MoveSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>HaRiBO\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="GenSystem.h">
+      <Filter>HaRiBO\GenSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillAdditionInfo.h">
+      <Filter>HaRiBO\Skills\SkillAdditionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="StatMng.h">
+      <Filter>HaRiBO\Players\StatMng</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>ZodeaGS\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzpath.h">
+      <Filter>HaRiBO\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhatsUpDummyServer.h">
+      <Filter>HaRiBO\Etc\CWhatsUpDummyServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFileManager.h">
+      <Filter>ZodeaGS\ReadFileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzitem.h">
+      <Filter>HaRiBO\Items\zzzItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBag.h">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBagEx.h">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicDamage.h">
+      <Filter>HaRiBO\Magics\MagicDamage</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicInf.h">
+      <Filter>HaRiBO\Magics\MagicInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="DSProtocol.h">
+      <Filter>HaRiBO\Protocols\DSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="EDSProtocol.h">
+      <Filter>HaRiBO\Protocols\EDSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>HaRiBO\Protocols\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalShop.h">
+      <Filter>HaRiBO\PersonalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelSystem.h">
+      <Filter>HaRiBO\DuelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SQuest.h">
+      <Filter>HaRiBO\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosCastle.h">
+      <Filter>HaRiBO\Events\ChaosCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="Party.h">
+      <Filter>HaRiBO\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenEvent.h">
+      <Filter>HaRiBO\Events\GoldenEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="ImperialFort.h">
+      <Filter>HaRiBO\Events\ImperialFort</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleGoer.h">
+      <Filter>HaRiBO\Events\DoubleGoer</Filter>
+    </ClInclude>
+    <ClInclude Include="DevilSquareGround.h">
+      <Filter>HaRiBO\Events\DevilSquare</Filter>
+    </ClInclude>
+    <ClInclude Include="DevilSquare.h">
+      <Filter>HaRiBO\Events\DevilSquare</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodCastle.h">
+      <Filter>HaRiBO\Events\BloodCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="Raklion.h">
+      <Filter>HaRiBO\Events\RaklionEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Summer.h">
+      <Filter>HaRiBO\Events\Summer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyEvent.h">
+      <Filter>HaRiBO\Events\SkyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManagement.h">
+      <Filter>HaRiBO\Events\EventManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderWorld.h">
+      <Filter>HaRiBO\Events\UnderworldEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyHour.h">
+      <Filter>HaRiBO\Events\HappyHour</Filter>
+    </ClInclude>
+    <ClInclude Include="RedDragon.h">
+      <Filter>HaRiBO\Events\RedDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="RingAttackEvent.h">
+      <Filter>HaRiBO\Events\RingAttackEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="SwampOfCalmness.h">
+      <Filter>HaRiBO\Events\SwampOfCalmness</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSoccerManager.h">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGround.h">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSoccer.h">
+      <Filter>HaRiBO\Events\BattleSoccer</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleDeepEvent.h">
+      <Filter>HaRiBO\Events\CastleDeepEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyPouch.h">
+      <Filter>HaRiBO\Events\HappyPouch</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueEvent.h">
+      <Filter>HaRiBO\Events\BlueEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="MossMerchant.h">
+      <Filter>HaRiBO\Events\MossMerchant</Filter>
+    </ClInclude>
+    <ClInclude Include="CherryBlossom.h">
+      <Filter>HaRiBO\Events\CherryBlossom</Filter>
+    </ClInclude>
+    <ClInclude Include="Halloween.h">
+      <Filter>HaRiBO\Events\Halloween</Filter>
+    </ClInclude>
+    <ClInclude Include="InitConfigs.h">
+      <Filter>HaRiBO\Events\EventItemBags</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleCrown.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleCrownSwitch.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleSiege.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleSiegeSync.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardian.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardianStatue.h">
+      <Filter>HaRiBO\Events\CastleSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="PKSystem.h">
+      <Filter>HaRiBO\PKSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosCard.h">
+      <Filter>HaRiBO\Events\ChaosCard</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialItems.h">
+      <Filter>HaRiBO\SpecialItems</Filter>
+    </ClInclude>
+    <ClInclude Include="LuckyCoin.h">
+      <Filter>HaRiBO\Events\LuckyCoin</Filter>
+    </ClInclude>
+    <ClInclude Include="News.h">
+      <Filter>HaRiBO\News</Filter>
+    </ClInclude>
+    <ClInclude Include="Firewall.h">
+      <Filter>HaRiBO\Firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="Item380System.h">
+      <Filter>HaRiBO\Item380System</Filter>
+    </ClInclude>
+    <ClInclude Include="MarrySystem.h">
+      <Filter>HaRiBO\MarrySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Pets.h">
+      <Filter>HaRiBO\Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDropManager.h">
+      <Filter>HaRiBO\ItemDropManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenArcher.h">
+      <Filter>HaRiBO\Events\GoldenArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>HaRiBO\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="JewelMixSystem.h">
+      <Filter>HaRiBO\JewelMixSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleModulus.h">
+      <Filter>ZodeaGS\SimpleModulus</Filter>
+    </ClInclude>
+    <ClInclude Include="spe.h">
+      <Filter>ZodeaGS\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>ZodeaGS\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ZodeaGS\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TColors.h">
+      <Filter>ZodeaGS\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ZodeaGS\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LogProc.h">
+      <Filter>ZodeaGS\LogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="JSProtocol.h">
+      <Filter>ZodeaGS\Protocol\JoinServer</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinProtocol.h">
+      <Filter>ZodeaGS\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>ZodeaGS\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.h">
+      <Filter>ZodeaGS\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatHandler.h">
+      <Filter>ZodeaGS\ChatHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Notice.h">
+      <Filter>ZodeaGS\Notice</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDumper.h">
+      <Filter>ZodeaGS\MiniDumper</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWinsockBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetItemOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WzMemScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WZScriptEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prodef.h">
+      <Filter>HaRiBO\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SendProto.h">
+      <Filter>ZodeaGS\Protocol\SendProto</Filter>
+    </ClInclude>
+    <ClInclude Include="GProtocol.h">
+      <Filter>ZodeaGS\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting.h">
+      <Filter>ZodeaGS\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>ZodeaGS\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterInfo.h">
+      <Filter>ZodeaGS\Players\CharacterInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="MuMsg.h">
+      <Filter>HaRiBO\MuMsg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc">
+      <Filter>ZodeaGS\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IconApp.ico">
+      <Filter>ZodeaGS\Resource</Filter>
+    </None>
+    <None Include="..\ZodeaProject-ChangeLog.txt" />
+    <None Include="To-Do List.txt" />
+  </ItemGroup>
+</Project>

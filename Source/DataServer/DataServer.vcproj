@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="DataServer"
+	ProjectGUID="{5E6D46CD-E6EE-4E96-B69C-964C3E9412EE}"
+	RootNamespace="DataServer"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="2"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;"
+				RuntimeLibrary="0"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="2"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\Header Files\Colors.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Configs.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Database.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\DataProtocol.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\DataSrvManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Defines.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\DSProtocol.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Functions.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\GPackets.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\IOCP.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\JoinProtocol.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\JoinSrvManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\JSProtocol.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\LogProc.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Main.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\MD5.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\MD5_KEYVAL.H"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\ReadFileManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Resource Files\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\StdAfx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\Structure.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Header Files\TSync.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\Resource Files\DataServer.rc"
+				>
+			</File>
+			<File
+				RelativePath=".\Resource Files\SoftIcon.ico"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\Source Files\Configs.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\Database.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\DataSrvManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\DSProtocol.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\Functions.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\IOCP.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\JoinSrvManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\JSProtocol.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\LogProc.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\Main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\MD5.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\ReadFileManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Source Files\StdAfx.cpp"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
